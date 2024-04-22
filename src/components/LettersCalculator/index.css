@@ -1,0 +1,51 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.letters-cal {
+  width: 50%;
+}
+
+.image {
+  width: 50%;
+}
+
+.heading,
+.para {
+  color: #ffffff;
+}
+
+.input-phrase {
+  color: #ffffff;
+  padding: 5px;
+  outline: none;
+  border-radius: 6px;
+  border-color: #ffffff;
+  background-color: transparent;
+  margin-top: 10px
+}
+
+.para-btn {
+  background-color: #ffffff;
+  height: 40px;
+  border-radius: 8px;
+  width: 150px;
+}
+
+.count {
+  color: #219a6f;
+  padding: 8px;
+  font-weight: bold;
+}
